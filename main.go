@@ -72,6 +72,10 @@ func main() {
 		"https://www.speedybee.com/bluetooth-uart-adapter-download/",
 		"https://www.speedybee.com/bee35-meteor-led-download/",
 		"https://www.speedybee.com/speedy-bee-app/",
+		"https://www.speedybee.com/bluetooth-uart-adapter-download/",
+		"https://www.speedybee.com/bluetooth-usb-adapter-download/",
+		"https://www.speedybee.com/flex25-drone-download/",
+		"https://www.speedybee.com/f7-mini-35a-stack-download/",
 	}
 	var getData []string
 	for _, remoteAPIURL := range remoteAPIURL {
