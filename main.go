@@ -123,6 +123,9 @@ func main() {
 	}
 	// Get all the values.
 	for _, urls := range downloadPDFURLSlice {
+		if strings.HasPrefix(urls, "..") {
+			urls = remoteDomain + urls[2:] // Prepend the base URL if relative path
+		}
 		// Get the domain from the url.
 		domain := getDomainFromURL(urls)
 		// Check if the domain is empty.
